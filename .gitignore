@@ -1,0 +1,43 @@
+# Archivos y directorios generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Directorios de dependencias (por ejemplo, Node.js / npm)
+/node_modules
+
+# Archivos de registro y archivos temporales
+*.log
+*.swp
+*.tmp
+
+# Configuración de desarrollo local
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Archivos de construcción / compilación
+/build/
+/dist/
+/out/
+/public/
+
+# Archivos de respaldo y archivos de caché
+*.bak
+*.cache
+
+# Carpeta de componentes de IDE / editor
+.idea/
+.vscode/
+
+# Entornos de desarrollo específicos
+/.venv/
+/.python-version
+
+# Dependiendo del lenguaje de programación, puedes agregar reglas adicionales.
+# Por ejemplo, para proyectos JavaScript / TypeScript:
+# /node_modules/
+# /dist/
+# /coverage/
